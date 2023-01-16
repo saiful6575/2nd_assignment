@@ -59,20 +59,23 @@ nav ul {
     font-weight: 700;
     size: 64px;
 }
+
 .bold_text-2 {
     text-align: center;
     font-weight: 700;
     size: 64px;
     margin-bottom: 20px;
 }
-.regular_txt{
+
+.regular_txt {
     text-align: center;
 
     font-weight: 400;
     font-style: normal;
     margin-bottom: 25px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #fd6e0a;
     color: #FFFFFF;
     width: 180px;
@@ -80,44 +83,143 @@ nav ul {
     font-weight: 600;
     border-radius: 4px;
 }
-.button{
+
+.button {
     margin-left: 820px;
 }
-.banner_img{
+
+.banner_img {
     margin-top: 20px;
     margin-left: 240px;
     margin-bottom: 45px;
 }
-.team_pic{
+
+.team_pic {
     display: grid;
-    grid-template-columns:repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 301px;
 }
-.logo{
+
+.logo {
     padding: 20px;
 }
-.Middle_part{
+
+.Middle_part {
     display: flex;
     justify-content: center;
     align-content: space-between;
-    
+
 }
+
 .first_txt {
     color: #272727;
     font-weight: 500;
 }
-.second_txt{
+
+.second_txt {
     font-weight: 900;
 }
-.third_txt{
+
+.third_txt {
     color: #fd6e0a;
 }
-.feature{
+
+.feature {
     margin-top: 287px;
     margin-left: 73px;
     width: 538px;
 }
-.para{
+
+.para {
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+.third_part {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 1440px;
+    height: 1059px;
+    margin-left: 240px;
+    margin-top: 130px;
+}
+
+.bold_txt {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.grid_txt {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.txt_align {
+    border-radius: 3px;
+    box-shadow: 3px 5px whitesmoke;
+    padding: 30px 42px 30px 30px;
+
+}
+
+.bold_four {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    /* Dark 01 */
+
+    color: #131313;
+}
+.para_one{
+    margin-top: 5px;
+}
+.upper_txt{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.mid_image{
+    position: relative;
+}
+.ten_btn{
+    position: absolute;
+    top: 80%;
+    right: 60%;
+    width: 322px;
+    height: 200px;
+    background-color: #fd6e0a;
+    border-radius: 8px;
+    color: #FFFFFF;
+
+}
+.ten_btn>h1{
+font-size: 65px;
+padding: 40px;
+}
+.bottom_text{
+    margin-left: 240px;
+    margin-top: 30px;
+}
+.bottom_para{
+    margin-top: 20px;
+    width: 542px;
+}
+.box{
+    padding: 10px 12px 12px 10px;
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 220px;
+    border-radius: 8px;
+    margin: 35px;
+    text-align: center;
+    
+}
+.bottom_box{
+    display: flex;
+    justify-content: center;
+}
+.box>img,h1,p{
+    margin-top: 20px;
 }
