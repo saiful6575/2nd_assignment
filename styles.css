@@ -86,4 +86,38 @@ nav ul {
 .banner_img{
     margin-top: 20px;
     margin-left: 240px;
+    margin-bottom: 45px;
+}
+.team_pic{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    margin-left: 301px;
+}
+.logo{
+    padding: 20px;
+}
+.Middle_part{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+.first_txt {
+    color: #272727;
+    font-weight: 500;
+}
+.second_txt{
+    font-weight: 900;
+}
+.third_txt{
+    color: #fd6e0a;
+}
+.feature{
+    margin-top: 287px;
+    margin-left: 73px;
+    width: 538px;
+}
+.para{
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
