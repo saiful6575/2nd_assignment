@@ -1,21 +1,17 @@
 * {
     margin: 0;
     font-family: 'work Sans';
-    /* padding: 0; */
 }
 
 header {
-    /* width: 1920px;
-    height: 1322px; */
     background-color: #FF900E1A;
-
 }
 
 .head_text {
     color: #131313;
     font-weight: 700;
 }
-
+/* Navigation bar CSS Design */
 nav {
     display: flex;
     justify-content: space-between;
@@ -26,12 +22,10 @@ nav {
 
 nav li {
     list-style: none;
-    /* margin-left: 50px; */
 }
 
 nav ul {
     display: flex;
-    /* position: relative; */
     justify-content: center;
     gap: 40px;
     width: 477px;
@@ -47,10 +41,8 @@ nav ul {
 }
 
 .mid_txt {
-    /* align-items: center; */
     color: #131313;
     width: 862px;
-    /* height: 225px; */
     padding-left: 450px;
 }
 
@@ -74,6 +66,7 @@ nav ul {
     font-style: normal;
     margin-bottom: 25px;
 }
+/* button design */
 
 .btn-primary {
     background-color: #fd6e0a;
@@ -103,7 +96,11 @@ nav ul {
 .logo {
     padding: 20px;
 }
+.logo img:hover{
+    border: 1px groove blue;
 
+}
+/* Second part of Middle section */
 .Middle_part {
     display: flex;
     justify-content: center;
@@ -123,6 +120,7 @@ nav ul {
 .third_txt {
     color: #fd6e0a;
 }
+/* Third part Design for Features Section */
 
 .feature {
     margin-top: 287px;
@@ -138,7 +136,6 @@ nav ul {
 .third_part {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     width: 1440px;
     height: 1059px;
     margin-left: 240px;
@@ -168,22 +165,24 @@ nav ul {
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
-
-    /* Dark 01 */
-
     color: #131313;
 }
-.para_one{
+
+.para_one {
     margin-top: 5px;
 }
-.upper_txt{
+
+.upper_txt {
     margin-right: 30px;
     margin-left: 10px;
 }
-.mid_image{
+
+.mid_image {
     position: relative;
 }
-.ten_btn{
+/* button design */
+
+.ten_btn {
     position: absolute;
     top: 80%;
     right: 60%;
@@ -194,19 +193,40 @@ nav ul {
     color: #FFFFFF;
 
 }
-.ten_btn>h1{
-font-size: 65px;
-padding: 40px;
+
+.ten_btn>h1 {
+    font-size: 60px;
+    padding: 7px;
 }
-.bottom_text{
+
+/* Bottom part for some Facts  */
+
+.bottom {
+    margin-top: 130px;
+}
+
+.bottom_text {
     margin-left: 240px;
-    margin-top: 30px;
 }
-.bottom_para{
+
+.bottom_text>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.box:hover {
+    border: 1.5px solid blue;
+}
+
+.bottom_para {
     margin-top: 20px;
     width: 542px;
 }
-.box{
+
+.box {
     padding: 10px 12px 12px 10px;
     border: 1px solid #FF900E;
     width: 240px;
@@ -214,12 +234,59 @@ padding: 40px;
     border-radius: 8px;
     margin: 35px;
     text-align: center;
-    
+
 }
-.bottom_box{
+
+.bottom_box {
     display: flex;
     justify-content: center;
 }
-.box>img,h1,p{
+
+.box>img,
+h1,
+p {
     margin-top: 20px;
+}
+
+/* sponsor part section design start */
+
+.sponsor {
+    margin-top: 180px;
+}
+
+.sponsor_text {
+    width: 542px;
+    margin-left: 689px;
+}
+
+.sponsor_text>h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.sponsor_text>p {
+    text-align: center;
+}
+
+.sponsor_icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+/* Footer Design part  */
+
+footer {
+    margin: 200px 240px 200px 240px;
+    padding: 20px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+footer>p {
+    text-align: center;
 }
