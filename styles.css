@@ -11,6 +11,7 @@ header {
     color: #131313;
     font-weight: 700;
 }
+
 /* Navigation bar CSS Design */
 nav {
     display: flex;
@@ -61,11 +62,11 @@ nav ul {
 
 .regular_txt {
     text-align: center;
-
     font-weight: 400;
     font-style: normal;
     margin-bottom: 25px;
 }
+
 /* button design */
 
 .btn-primary {
@@ -96,10 +97,12 @@ nav ul {
 .logo {
     padding: 20px;
 }
-.logo img:hover{
+
+.logo img:hover {
     border: 1px groove blue;
 
 }
+
 /* Second part of Middle section */
 .Middle_part {
     display: flex;
@@ -120,6 +123,7 @@ nav ul {
 .third_txt {
     color: #fd6e0a;
 }
+
 /* Third part Design for Features Section */
 
 .feature {
@@ -180,6 +184,7 @@ nav ul {
 .mid_image {
     position: relative;
 }
+
 /* button design */
 
 .ten_btn {
@@ -289,4 +294,49 @@ footer {
 
 footer>p {
     text-align: center;
+}
+
+/* Responsive Design for Mobile device*/
+/*-------------------------------- 
+            Media quaries 
+---------------------------------*/
+@media only screen and (max-width: 576px) {
+    .nav_bar{
+        flex-direction: column;
+        width: 100%;
+    }
+    .Middle_part{
+        flex-direction: column;
+        width: 100%;
+    }
+    .third_part{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .sponsor_icon{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 220px;
+        gap: 30px;
+    }
+    .team_pic{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .banner_img{
+        width: 100%;
+        height: auto;
+    }
+    .footer{
+        width: auto;
+    }
+    .bottom_box{
+        flex-direction: column;
+        justify-content: center; 
+        margin-left: 50%;   
+    }
+    .sponsor_text{
+        width: 100%;
+    }
 }
